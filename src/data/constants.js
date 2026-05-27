@@ -14,6 +14,11 @@ export const COMPANY_INFO = {
   address: '228-Abhishek Arcade, Surat-395010(GUJ.), INDIA',
   phone: '+91 9328384832',
   email: 'info@raaviexports.com',
+  logo: 'https://raaviexports.com/wp-content/uploads/2024/05/Raavi-Export-3.png',
+  ceo: {
+    name: 'Bhavin Taja',
+    title: 'Chairman, MD & CEO'
+  },
   social: {
     facebook: 'https://www.facebook.com/RaaviExport',
     instagram: 'https://www.instagram.com/raavi_exports',
@@ -141,3 +146,10 @@ export const TESTIMONIALS = [
     image: 'https://raaviexports.com/wp-content/uploads/2024/05/prashant.jpg'
   }
 ];
+
+export const SERVICE_HIGHLIGHTS = [
+  { id: 'seasoning', title: 'Seasoning Section', description: 'Where culinary creativity meets savory delight.' },
+  { id: 'flavor', title: 'Flavor Aisle', description: 'There are many variations of passages of spices and flavors.' },
+  { id: 'special', title: 'Special Spice Rack', description: 'Curated flavors for culinary excellence.' }
+];
+

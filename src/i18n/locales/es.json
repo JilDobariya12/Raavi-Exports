@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "export": "Exportar",
+    "contact": "Contacto",
+    "quote": "Presupuesto"
+  },
+  "hero": {
+    "tagline": "El Rey de la Calidad",
+    "headline_before": "Entregando",
+    "headline_span": "Especias Indias",
+    "headline_after": "Premium en Todo el Mundo",
+    "description": "Eleve cada creación culinaria a nuevas alturas de sabor y perfección con las exquisitas y meticulosamente elaboradas especias de nuestra reconocida colección.",
+    "explore": "Explorar Productos",
+    "contact": "Contáctenos"
+  },
+  "about": {
+    "badge": "Sobre Raavi Exports",
+    "headline": "Un Legado de",
+    "headline_italic": "Sabor",
+    "headline_rest": "y Excelencia Global",
+    "p1": "Somos apasionados curadores de las mejores especias de la India, dedicados a llevar sabores auténticos y ricos a las cocinas de todo el mundo. Nuestro viaje comenzó con una misión simple: exportar no solo especias, sino la esencia misma de la herencia culinaria.",
+    "p2": "Descubra nuestras formulaciones confiables, elaboradas con cuidado para la excelencia culinaria, ofreciendo una mejora suave y segura de los platos en un rico espectro de tipos de especias.",
+    "point1": "Las especias mejoran las experiencias culinarias con un atractivo aromático, expresando afecto.",
+    "point2": "El control de las rutas comerciales de especias históricamente significaba autoridad y poder.",
+    "point3": "Las especias enriquecen las tradiciones culturales a través del intercambio culinario global.",
+    "excellence_badge": "Años de\nExcelencia",
+    "ceo_name": "Bhavin Taja",
+    "ceo_title": "Presidente, MD y CEO",
+    "highlights": {
+      "seasoning": {
+        "title": "Sección de Condimentos",
+        "description": "Donde la creatividad culinaria se une al deleite sabroso."
+      },
+      "flavor": {
+        "title": "Pasillo de Sabores",
+        "description": "Hay muchas variaciones de pasajes de especias y sabores."
+      },
+      "special": {
+        "title": "Especiero Especial",
+        "description": "Sabores curados para la excelencia culinaria."
+      }
+    },
+    "stats": {
+      "experience": "Años de Experiencia",
+      "countries": "Países Exportados",
+      "products": "Productos Premium",
+      "clients": "Clientes Felices"
+    }
+  },
+  "services": {
+    "badge": "Nuestras Especialidades",
+    "headline": "Elaborado Con Pasión",
+    "description": "Explore nuestras categorías de especias curadas, cada una elaborada con décadas de experiencia y un compromiso inquebrantable con el sabor auténtico."
+  },
+  "products": {
+    "badge": "Nuestra Colección",
+    "headline": "Especias Premium de Exportación",
+    "description": "Descubra nuestra amplia gama de especias meticulosamente procesadas, garantizadas para elevar cualquier creación culinaria con perfiles de sabor auténticos.",
+    "inquire": "Consultar Ahora",
+    "categories": {
+      "whole": "Especias Enteras",
+      "grounded": "Especias Molidas",
+      "blended": "Especias Mezcladas de Firma",
+      "legumes": "Legumbres de Alta Calidad",
+      "paste": "Pastas Culinaras Ricas"
+    },
+    "titles": {
+      "whole": "Especias Enteras Premium",
+      "grounded": "Especias Molidas Auténticas",
+      "blended": "Especias Mezcladas de Firma",
+      "legumes": "Legumbres de Alta Calidad",
+      "paste": "Pastas Culinaras Ricas"
+    },
+    "descriptions": {
+      "whole": "Especias enteras cuidadosamente seleccionadas a mano que conservan sus aceites naturales y su aroma intenso.",
+      "grounded": "Especias finamente molidas procesadas bajo un estricto control de temperatura para preservar el sabor.",
+      "blended": "Mezclas de especias elaboradas por expertos para una armonía culinaria perfecta.",
+      "legumes": "Legumbres ricas en nutrientes y de calidad premium, procedentes de las mejores granjas.",
+      "paste": "Bases de sabor concentradas elaboradas con ingredientes frescos y premium."
+    }
+  },
+  "export": {
+    "badge": "Alcance Global",
+    "headline": "Exportando Excelencia a Todo el Mundo",
+    "description": "Nuestras especias premium trascienden fronteras, entregando sabores indios auténticos a socios estimados y expertos culinarios en todo el mundo.",
+    "partner_title": "¿Listo para asociarse con nosotros?",
+    "partner_desc": "Únase a nuestra creciente red de distribuidores internacionales.",
+    "partner_btn": "Conviértase en Distribuidor"
+  },
+  "process": {
+    "badge": "Nuestro Proceso",
+    "headline": "De la Granja a los Mercados Globales",
+    "steps": {
+      "farming": {
+        "title": "Cultivo",
+        "description": "El cultivo de especias implica un cultivo y procesamiento cuidadosos en regiones tropicales, lo que respalda la cocina global y el sustento de millones."
+      },
+      "cleaning": {
+        "title": "Limpieza",
+        "description": "La limpieza de los cultivos implica eliminar impurezas y contaminantes para garantizar la calidad y seguridad de los productos cosechados."
+      },
+      "processing": {
+        "title": "Procesamiento y Envasado",
+        "description": "El procesamiento y envasado de especias implica secarlas, molerlas y sellarlas para preservar su sabor, calidad y vida útil."
+      },
+      "exporting": {
+        "title": "Exportación",
+        "description": "Logística y envío cuidadosos para entregar especias de calidad premium a nuestros socios globales sin problemas."
+      }
+    }
+  },
+  "certifications": {
+    "badge": "Confianza y Calidad",
+    "headline": "Nuestras Certificaciones",
+    "description": "Nuestro compromiso con una calidad y seguridad inigualables está respaldado por los principales estándares nacionales e internacionales de seguridad alimentaria."
+  },
+  "testimonials": {
+    "badge": "Opiniones de Clientes",
+    "headline": "Lo que dicen de nosotros",
+    "items": {
+      "jitu": {
+        "name": "Jitendar kalsariya",
+        "designation": "Director de Ventas",
+        "text": "\"Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteraciones en alguna forma, por humor inyectado...\""
+      },
+      "hardik": {
+        "name": "Hardik sagar",
+        "designation": "Gemólogo",
+        "text": "\"Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteraciones en alguna forma, por humor inyectado...\""
+      },
+      "prashant": {
+        "name": "prashant patel",
+        "designation": "Gerente de Cadena",
+        "text": "\"Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteraciones en alguna forma, por humor inyectado...\""
+      }
+    }
+  },
+  "contact": {
+    "badge": "Póngase en Contacto",
+    "headline_span": "Exportación",
+    "headline_rest": "Hablemos de sus Necesidades",
+    "description": "Asóciese con Raavi Exports para obtener especias de calidad premium. Nuestro equipo está listo para ayudarlo con pedidos al por mayor, mezclas personalizadas y logística de envío internacional.",
+    "office": "Oficina Central",
+    "call": "Llámenos",
+    "email": "Escríbanos",
+    "form_title": "Enviar una Consulta",
+    "name_label": "Nombre Completo",
+    "name_placeholder": "John Doe",
+    "email_label": "Dirección de Correo",
+    "email_placeholder": "john@company.com",
+    "subject_label": "Asunto",
+    "subject_placeholder": "Consulta de Pedido al Por Mayor",
+    "message_label": "Mensaje",
+    "message_placeholder": "Por favor describa sus requerimientos...",
+    "submit": "Enviar Consulta"
+  },
+  "footer": {
+    "brand_desc": "\"Eleve cada creación culinaria a nuevas alturas de sabor y perfección con las exquisitas y meticulosamente elaboradas especias de nuestra reconocida colección.\"",
+    "quick_links": "Enlaces Rápidos",
+    "contact_info": "Información de Contacto",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "credits": "Diseñado y Desarrollado por"
+  }
+}

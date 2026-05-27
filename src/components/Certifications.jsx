@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CERTIFICATIONS } from '../data/constants';
+import { useTranslation } from 'react-i18next';
 
 const Certifications = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 bg-brown-900 relative border-t border-brown-800">
       <div className="container mx-auto px-6 lg:px-12">
@@ -14,7 +17,7 @@ const Certifications = () => {
               viewport={{ once: true }}
               className="text-gold-500 font-medium tracking-[0.2em] uppercase text-sm mb-4"
             >
-              Trust & Quality
+              {t('certifications.badge')}
             </motion.h4>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
@@ -23,7 +26,7 @@ const Certifications = () => {
               transition={{ delay: 0.2 }}
               className="text-4xl lg:text-5xl font-serif font-bold text-cream-100"
             >
-              Our Certifications
+              {t('certifications.headline')}
             </motion.h2>
           </div>
           <motion.p 
@@ -33,7 +36,7 @@ const Certifications = () => {
             transition={{ delay: 0.3 }}
             className="text-cream-100/60 font-light max-w-md"
           >
-            Our commitment to unmatched quality and safety is backed by leading global and national food safety standards.
+            {t('certifications.description')}
           </motion.p>
         </div>
 

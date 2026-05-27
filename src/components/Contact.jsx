@@ -1,8 +1,31 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { COMPANY_INFO } from '../data/constants';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
+
+  const getHeadlineMarkup = () => {
+    const rest = t('contact.headline_rest');
+    const span = t('contact.headline_span');
+    const words = rest.split(' ');
+    if (words.length <= 1) {
+      return (
+        <>
+          {rest} <span className="text-gold-400 font-style-italic">{span}</span>
+        </>
+      );
+    }
+    const lastWord = words[words.length - 1];
+    const otherWords = words.slice(0, -1).join(' ');
+    return (
+      <>
+        {otherWords} <span className="text-gold-400 font-style-italic">{span}</span> {lastWord}
+      </>
+    );
+  };
+
   return (
     <section id="contact" className="py-24 bg-brown-800 relative">
       <div className="container mx-auto px-6 lg:px-12">
@@ -15,12 +38,12 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h4 className="text-gold-500 font-medium tracking-[0.2em] uppercase text-sm mb-4">Get in Touch</h4>
+            <h4 className="text-gold-500 font-medium tracking-[0.2em] uppercase text-sm mb-4">{t('contact.badge')}</h4>
             <h2 className="text-4xl lg:text-5xl font-serif font-bold text-cream-100 mb-8 leading-tight">
-              Let's Discuss Your <span className="text-gold-400 font-style-italic">Export</span> Needs
+              {getHeadlineMarkup()}
             </h2>
             <p className="text-cream-100/70 mb-12 font-light leading-relaxed text-lg">
-              Partner with Raavi Exports for premium quality spices. Our team is ready to assist you with bulk orders, custom blending, and international shipping logistics.
+              {t('contact.description')}
             </p>
 
             <div className="space-y-8">
@@ -29,7 +52,7 @@ const Contact = () => {
                   <i className="fas fa-map-marker-alt text-gold-500"></i>
                 </div>
                 <div>
-                  <h5 className="text-sm uppercase tracking-widest text-cream-100/50 mb-1">Head Office</h5>
+                  <h5 className="text-sm uppercase tracking-widest text-cream-100/50 mb-1">{t('contact.office')}</h5>
                   <p className="text-cream-100 font-serif text-lg">{COMPANY_INFO.address}</p>
                 </div>
               </div>
@@ -39,7 +62,7 @@ const Contact = () => {
                   <i className="fas fa-phone-alt text-gold-500"></i>
                 </div>
                 <div>
-                  <h5 className="text-sm uppercase tracking-widest text-cream-100/50 mb-1">Call Us</h5>
+                  <h5 className="text-sm uppercase tracking-widest text-cream-100/50 mb-1">{t('contact.call')}</h5>
                   <a href={`tel:${COMPANY_INFO.phone.replace(/\s+/g, '')}`} className="text-cream-100 font-serif text-lg hover:text-gold-400 transition-colors">
                     {COMPANY_INFO.phone}
                   </a>
@@ -51,7 +74,7 @@ const Contact = () => {
                   <i className="fas fa-envelope text-gold-500"></i>
                 </div>
                 <div>
-                  <h5 className="text-sm uppercase tracking-widest text-cream-100/50 mb-1">Email Us</h5>
+                  <h5 className="text-sm uppercase tracking-widest text-cream-100/50 mb-1">{t('contact.email')}</h5>
                   <a href={`mailto:${COMPANY_INFO.email}`} className="text-cream-100 font-serif text-lg hover:text-gold-400 transition-colors">
                     {COMPANY_INFO.email}
                   </a>
@@ -68,31 +91,31 @@ const Contact = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="bg-brown-900 border border-brown-700/50 p-8 md:p-12 rounded-sm shadow-2xl"
           >
-            <h3 className="text-2xl font-serif text-cream-100 mb-8">Send an Inquiry</h3>
+            <h3 className="text-2xl font-serif text-cream-100 mb-8">{t('contact.form_title')}</h3>
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">Full Name</label>
-                  <input type="text" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm" placeholder="John Doe" />
+                  <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">{t('contact.name_label')}</label>
+                  <input type="text" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm" placeholder={t('contact.name_placeholder')} />
                 </div>
                 <div>
-                  <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">Email Address</label>
-                  <input type="email" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm" placeholder="john@company.com" />
+                  <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">{t('contact.email_label')}</label>
+                  <input type="email" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm" placeholder={t('contact.email_placeholder')} />
                 </div>
               </div>
               
               <div>
-                <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">Subject</label>
-                <input type="text" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm" placeholder="Bulk Order Inquiry" />
+                <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">{t('contact.subject_label')}</label>
+                <input type="text" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm" placeholder={t('contact.subject_placeholder')} />
               </div>
 
               <div>
-                <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">Message</label>
-                <textarea rows="4" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm resize-none" placeholder="Please describe your requirements..."></textarea>
+                <label className="block text-xs uppercase tracking-widest text-cream-100/60 mb-2">{t('contact.message_label')}</label>
+                <textarea rows="4" className="w-full bg-brown-800 border border-brown-700 text-cream-100 px-4 py-3 focus:outline-none focus:border-gold-500 transition-colors rounded-sm resize-none" placeholder={t('contact.message_placeholder')}></textarea>
               </div>
 
               <button type="submit" className="premium-button w-full">
-                Submit Inquiry
+                {t('contact.submit')}
               </button>
             </form>
           </motion.div>

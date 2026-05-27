@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品中心",
+    "export": "出口业务",
+    "contact": "联系我们",
+    "quote": "获取报价"
+  },
+  "hero": {
+    "tagline": "品质之王",
+    "headline_before": "向全球输送优质",
+    "headline_span": "印度香料",
+    "headline_after": "",
+    "description": "用我们著名系列中精致且精心调制的香料，将每一项烹饪创作提升到风味与完美的全新高度。",
+    "explore": "探索产品",
+    "contact": "联系我们"
+  },
+  "about": {
+    "badge": "关于 Raavi Exports",
+    "headline": "承载",
+    "headline_italic": "风味",
+    "headline_rest": "与全球卓越的传奇",
+    "p1": "我们是印度最优质香料的狂热策展人，致力于将正宗、浓郁的风味带到世界各地的厨房。我们的旅程始于一个简单的使命：不仅出口香料，更出口烹饪传统的精髓。",
+    "p2": "探索我们值得信赖的配方，为烹饪卓越精心打造，在丰富的香料类型中为菜肴提供温和安全的提升。",
+    "point1": "香料以芳香的魅力提升烹饪体验，表达情感。",
+    "point2": "对香料贸易路线的控制在历史上象征着权威和力量。",
+    "point3": "香料通过全球烹饪交流丰富文化传统。",
+    "excellence_badge": "卓越之作\n十五载",
+    "ceo_name": "Bhavin Taja",
+    "ceo_title": "董事长、董事总经理兼首席执行官",
+    "highlights": {
+      "seasoning": {
+        "title": "调味区",
+        "description": "烹饪创意与美味享受的交汇。"
+      },
+      "flavor": {
+        "title": "风味通道",
+        "description": "香料和风味的多种变化。"
+      },
+      "special": {
+        "title": "特色香料架",
+        "description": "为烹饪卓越精心策展的风味。"
+      }
+    },
+    "stats": {
+      "experience": "年行业经验",
+      "countries": "出口国家与地区",
+      "products": "优质香料品类",
+      "clients": "满意客户"
+    }
+  },
+  "services": {
+    "badge": "我们的特色",
+    "headline": "用热情打造",
+    "description": "探索我们精心策展的香料类别，每一类都凝聚了数十年的专业知识和对正宗风味的坚定承诺。"
+  },
+  "products": {
+    "badge": "我们的收藏",
+    "headline": "优质出口香料",
+    "description": "探索我们经过精心加工的全面香料系列，保证能以正宗的风味提升任何烹饪创作。",
+    "inquire": "立即咨询",
+    "categories": {
+      "whole": "整粒香料",
+      "grounded": "研磨香料",
+      "blended": "招牌混合香料",
+      "legumes": "高品质豆类",
+      "paste": "浓郁烹饪酱料"
+    },
+    "titles": {
+      "whole": "优质整粒香料",
+      "grounded": "正宗研磨香料",
+      "blended": "招牌混合香料",
+      "legumes": "优质豆类",
+      "paste": "浓郁烹饪酱料"
+    },
+    "descriptions": {
+      "whole": "精心手工挑选的整粒香料，保留了天然油脂和浓郁香气。",
+      "grounded": "在严格的温度控制下加工的精细研磨香料，以保留原有风味。",
+      "blended": "专业调配 carbon 混合香料，实现完美的烹饪和谐。",
+      "legumes": "源自最佳农场、营养丰富的优质豆类。",
+      "paste": "采用新鲜优质原料制成的浓缩风味底料。"
+    }
+  },
+  "export": {
+    "badge": "全球布局",
+    "headline": "将卓越品质出口至全球",
+    "description": "我们的优质香料跨越国界，为全球尊贵的合作伙伴 and 烹饪专家提供正宗的印度风味。",
+    "partner_title": "准备好与我们合作了吗？",
+    "partner_desc": "加入我们日益壮大的国际分销商网络。",
+    "partner_btn": "成为分销商"
+  },
+  "process": {
+    "badge": "加工流程",
+    "headline": "从农场到全球市场",
+    "steps": {
+      "farming": {
+        "title": "农业种植",
+        "description": "香料种植涉及在热带地区进行精细的培育和加工，支持全球美食并维系着数百万人的生计。"
+      },
+      "cleaning": {
+        "title": "清洁筛选",
+        "description": "清洁作物包括去除杂质和污染物，以确保收获农产品的质量和安全。"
+      },
+      "processing": {
+        "title": "加工与包装",
+        "description": "香料的加工和包装包括干燥、研磨和密封，以保留其风味、品质和保质期。"
+      },
+      "exporting": {
+        "title": "全球出口",
+        "description": "精细的物流和运输，将优质香料无缝交付给我们的全球合作伙伴。"
+      }
+    }
+  },
+  "certifications": {
+    "badge": "信任与品质",
+    "headline": "权威认证",
+    "description": "我们对无与伦比的质量和安全的承诺得到了领先的全球和国家食品安全标准的支持。"
+  },
+  "testimonials": {
+    "badge": "客户评价",
+    "headline": "客户声音",
+    "items": {
+      "jitu": {
+        "name": "Jitendar kalsariya",
+        "designation": "销售总监",
+        "text": "\"Lorem Ipsum有很多不同的段落版本，但大多数都在某种程度上受到了改动，比如被注入了幽默......\""
+      },
+      "hardik": {
+        "name": "Hardik sagar",
+        "designation": "珠宝鉴定师",
+        "text": "\"Lorem Ipsum有很多不同的段落版本，但大多数都在某种程度上受到了改动，比如被注入了幽默......\""
+      },
+      "prashant": {
+        "name": "prashant patel",
+        "designation": "供应链经理",
+        "text": "\"Lorem Ipsum有很多不同的段落版本，但大多数都在某种程度上受到了改动，比如被注入了幽默......\""
+      }
+    }
+  },
+  "contact": {
+    "badge": "取得联系",
+    "headline_span": "出口业务",
+    "headline_rest": "让我们探讨您的采购需求",
+    "description": "携手 Raavi Exports，采购优质香料。我们的团队随时准备为您提供大宗订单、定制拼配和国际物流等服务。",
+    "office": "总部地址",
+    "call": "致电我们",
+    "email": "邮件联系",
+    "form_title": "发送咨询",
+    "name_label": "姓名",
+    "name_placeholder": "张三",
+    "email_label": "邮箱地址",
+    "email_placeholder": "john@company.com",
+    "subject_label": "主题",
+    "subject_placeholder": "大宗采购咨询",
+    "message_label": "留言内容",
+    "message_placeholder": "请详细描述您的需求...",
+    "submit": "提交咨询"
+  },
+  "footer": {
+    "brand_desc": "\"用我们著名系列中精致且精心调制的香料，将每一项烹饪创作提升到风味与完美的全新高度。\"",
+    "quick_links": "快速链接",
+    "contact_info": "联系方式",
+    "rights": "保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "credits": "设计与开发"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "export": "Export",
+    "contact": "Contact Us",
+    "quote": "Get a Quote"
+  },
+  "hero": {
+    "tagline": "King Of Quality",
+    "headline_before": "Delivering Premium",
+    "headline_span": "Indian Spices",
+    "headline_after": "Worldwide",
+    "description": "Elevate every culinary creation to new heights of flavor and perfection with the exquisite and meticulously crafted spices from our renowned collection.",
+    "explore": "Explore Products",
+    "contact": "Contact Us"
+  },
+  "about": {
+    "badge": "About Raavi Exports",
+    "headline": "A Legacy of",
+    "headline_italic": "Flavor",
+    "headline_rest": "& Global Excellence",
+    "p1": "We are passionate curators of India's finest spices, dedicated to bringing authentic, rich flavors to kitchens worldwide. Our journey began with a simple mission: to export not just spices, but the very essence of culinary heritage.",
+    "p2": "Discover our trusted formulations, crafted with care for culinary excellence, offering gentle and safe enhancement of dishes across a rich spectrum of spice types.",
+    "point1": "Spices enhance culinary experiences with aromatic allure, expressing affection.",
+    "point2": "Control over spice trade routes historically signified authority and power.",
+    "point3": "Spices enrich cultural traditions through global culinary exchange.",
+    "excellence_badge": "Years of\nExcellence",
+    "ceo_name": "Bhavin Taja",
+    "ceo_title": "Chairman, MD & CEO",
+    "highlights": {
+      "seasoning": {
+        "title": "Seasoning Section",
+        "description": "Where culinary creativity meets savory delight."
+      },
+      "flavor": {
+        "title": "Flavor Aisle",
+        "description": "There are many variations of passages of spices and flavors."
+      },
+      "special": {
+        "title": "Special Spice Rack",
+        "description": "Curated flavors for culinary excellence."
+      }
+    },
+    "stats": {
+      "experience": "Years Experience",
+      "countries": "Countries Exported",
+      "products": "Premium Products",
+      "clients": "Happy Clients"
+    }
+  },
+  "services": {
+    "badge": "Our Specialties",
+    "headline": "Crafted With Passion",
+    "description": "Explore our curated spice categories, each crafted with decades of expertise and an unwavering commitment to authentic flavor."
+  },
+  "products": {
+    "badge": "Our Collection",
+    "headline": "Premium Export Spices",
+    "description": "Discover our comprehensive range of meticulously processed spices, guaranteed to elevate any culinary creation with authentic flavor profiles.",
+    "inquire": "Inquire Now",
+    "categories": {
+      "whole": "Whole Spices",
+      "grounded": "Grounded Spices",
+      "blended": "Signature Blended Spices",
+      "legumes": "High-Quality Legumes",
+      "paste": "Rich Culinary Pastes"
+    },
+    "titles": {
+      "whole": "Premium Whole Spices",
+      "grounded": "Authentic Grounded Spices",
+      "blended": "Signature Blended Spices",
+      "legumes": "High-Quality Legumes",
+      "paste": "Rich Culinary Pastes"
+    },
+    "descriptions": {
+      "whole": "Carefully handpicked whole spices retaining their natural oils and intense aroma.",
+      "grounded": "Finely milled spices processed under strict temperature control to preserve flavor.",
+      "blended": "Expertly crafted spice mixtures for perfect culinary harmony.",
+      "legumes": "Nutrient-rich, premium quality legumes sourced from the best farms.",
+      "paste": "Concentrated flavor bases made from fresh, premium ingredients."
+    }
+  },
+  "export": {
+    "badge": "Global Reach",
+    "headline": "Exporting Excellence Worldwide",
+    "description": "Our premium spices transcend borders, delivering authentic Indian flavors to esteemed partners and culinary experts across the globe.",
+    "partner_title": "Ready to partner with us?",
+    "partner_desc": "Join our growing network of international distributors.",
+    "partner_btn": "Become a Distributor"
+  },
+  "process": {
+    "badge": "Our Process",
+    "headline": "From Farm to Global Markets",
+    "steps": {
+      "farming": {
+        "title": "Farming",
+        "description": "Spice farming involves careful cultivation and processing in tropical regions, supporting global cuisine and the livelihoods of millions."
+      },
+      "cleaning": {
+        "title": "Cleaning",
+        "description": "Cleaning crops involves removing impurities and contaminants to ensure the quality and safety of the harvested produce."
+      },
+      "processing": {
+        "title": "Processing & Packing",
+        "description": "Processing and packing spices involve drying, grinding, and sealing them to preserve their flavor, quality, and shelf life."
+      },
+      "exporting": {
+        "title": "Exporting",
+        "description": "Carefully logistics and shipping to deliver premium quality spices to our global partners seamlessly."
+      }
+    }
+  },
+  "certifications": {
+    "badge": "Trust & Quality",
+    "headline": "Our Certifications",
+    "description": "Our commitment to unmatched quality and safety is backed by leading global and national food safety standards."
+  },
+  "testimonials": {
+    "badge": "Client Reviews",
+    "headline": "What They Say About Us",
+    "items": {
+      "jitu": {
+        "name": "Jitendar kalsariya",
+        "designation": "Head of Sales",
+        "text": "\"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour...\""
+      },
+      "hardik": {
+        "name": "Hardik sagar",
+        "designation": "Gemologist",
+        "text": "\"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour...\""
+      },
+      "prashant": {
+        "name": "prashant patel",
+        "designation": "Chain Manager",
+        "text": "\"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour...\""
+      }
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "headline_span": "Export",
+    "headline_rest": "Let's Discuss Your Needs",
+    "description": "Partner with Raavi Exports for premium quality spices. Our team is ready to assist you with bulk orders, custom blending, and international shipping logistics.",
+    "office": "Head Office",
+    "call": "Call Us",
+    "email": "Email Us",
+    "form_title": "Send an Inquiry",
+    "name_label": "Full Name",
+    "name_placeholder": "John Doe",
+    "email_label": "Email Address",
+    "email_placeholder": "john@company.com",
+    "subject_label": "Subject",
+    "subject_placeholder": "Bulk Order Inquiry",
+    "message_label": "Message",
+    "message_placeholder": "Please describe your requirements...",
+    "submit": "Submit Inquiry"
+  },
+  "footer": {
+    "brand_desc": "\"Elevate every culinary creation to new heights of flavor and perfection with the exquisite and meticulously crafted spices from our renowned collection.\"",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "credits": "Designed & Developed by"
+  }
+}

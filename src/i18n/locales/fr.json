@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "export": "Exporter",
+    "contact": "Contact",
+    "quote": "Devis"
+  },
+  "hero": {
+    "tagline": "Le Roi de la Qualité",
+    "headline_before": "Livraison d' ",
+    "headline_span": "Épices Indiennes",
+    "headline_after": "Premium dans le Monde Entier",
+    "description": "Élevez chaque création culinaire vers de nouveaux sommets de saveur et de perfection grâce aux épices exquises et méticuleusement élaborées de notre célèbre collection.",
+    "explore": "Explorer les Produits",
+    "contact": "Contactez-nous"
+  },
+  "about": {
+    "badge": "À Propos de Raavi Exports",
+    "headline": "Un Héritage de",
+    "headline_italic": "Saveur",
+    "headline_rest": "& d'Excellence Globale",
+    "p1": "Nous sommes des conservateurs passionnés des meilleures épices d'Inde, dédiés à apporter des saveurs authentiques et riches aux cuisines du monde entier. Notre voyage a commencé avec une mission simple : exporter non seulement des épices, mais l'essence même du patrimoine culinaire.",
+    "p2": "Découvrez nos formulations de confiance, élaborées avec soin pour l'excellence culinaire, offrant une amélioration douce et sûre des plats dans un riche éventail de types d'épices.",
+    "point1": "Les épices enrichissent les expériences culinaires avec un attrait aromatique, exprimant l'affection.",
+    "point2": "Le contrôle des routes commerciales des épices symbolisait historiquement l'autorité et le pouvoir.",
+    "point3": "Les épices enrichissent les traditions culturelles à travers l'échange culinaire mondial.",
+    "excellence_badge": "Années d'\nExcellence",
+    "ceo_name": "Bhavin Taja",
+    "ceo_title": "Président, MD & CEO",
+    "highlights": {
+      "seasoning": {
+        "title": "Section des Assaisonnements",
+        "description": "Où la créativité culinaire rencontre le délice savoureux."
+      },
+      "flavor": {
+        "title": "Allée des Saveurs",
+        "description": "Il existe de nombreuses variations de passages d'épices et de saveurs."
+      },
+      "special": {
+        "title": "Étagère à Épices Spéciale",
+        "description": "Des saveurs sélectionnées pour l'excellence culinaire."
+      }
+    },
+    "stats": {
+      "experience": "Années d'Expérience",
+      "countries": "Pays Exportés",
+      "products": "Produits Premium",
+      "clients": "Clients Satisfaits"
+    }
+  },
+  "services": {
+    "badge": "Nos Spécialités",
+    "headline": "Conçu Avec Passion",
+    "description": "Explorez nos catégories d'épices sélectionnées, chacune élaborée avec des décennies d'expertise et un engagement indéfectible envers les saveurs authentiques."
+  },
+  "products": {
+    "badge": "Notre Collection",
+    "headline": "Épices d'Exportation Premium",
+    "description": "Découvrez notre gamme complète d'épices méticuleusement transformées, garanties pour sublimer toute création culinaire avec des profils aromatiques authentiques.",
+    "inquire": "Demander un devis",
+    "categories": {
+      "whole": "Épices Entières",
+      "grounded": "Épices Moulues",
+      "blended": "Mélanges d'Épices Signature",
+      "legumes": "Légumineuses de Haute Qualité",
+      "paste": "Pâtes Culinaires Riches"
+    },
+    "titles": {
+      "whole": "Épices Entières Premium",
+      "grounded": "Épices Moulues Authentiques",
+      "blended": "Mélanges d'Épices Signature",
+      "legumes": "Légumineuses de Haute Qualité",
+      "paste": "Pâtes Culinaires Riches"
+    },
+    "descriptions": {
+      "whole": "Épices entières soigneusement sélectionnées à la main, conservant leurs huiles naturelles et leur arôme intense.",
+      "grounded": "Épices finement moulues et traitées sous contrôle strict de la température pour préserver les saveurs.",
+      "blended": "Mélanges d'épices savamment élaborés pour une harmonie culinaire parfaite.",
+      "legumes": "Légumineuses riches en nutriments et de qualité supérieure, provenant des meilleures fermes.",
+      "paste": "Bases aromatiques concentrées à base d'ingrédients frais et de premier choix."
+    }
+  },
+  "export": {
+    "badge": "Portée Mondiale",
+    "headline": "Exporter l'Excellence dans le Monde Entier",
+    "description": "Nos épices premium transcendent les frontières, offrant des saveurs indiennes authentiques à nos précieux partenaires et experts culinaires à travers le monde.",
+    "partner_title": "Prêt à vous associer avec nous ?",
+    "partner_desc": "Rejoignez notre réseau croissant de distributeurs internationaux.",
+    "partner_btn": "Devenir Distributeur"
+  },
+  "process": {
+    "badge": "Notre Processus",
+    "headline": "De la Ferme aux Marchés Mondiaux",
+    "steps": {
+      "farming": {
+        "title": "Agriculture",
+        "description": "La culture des épices implique une culture et une transformation minutieuses dans les régions tropicales, soutenant la cuisine mondiale et les moyens de subsistance de millions de personnes."
+      },
+      "cleaning": {
+        "title": "Nettoyage",
+        "description": "Le nettoyage des cultures consiste à éliminer les impuretés et les contaminants afin de garantir la qualité et la sécurité des produits récoltés."
+      },
+      "processing": {
+        "title": "Traitement & Emballage",
+        "description": "Le traitement et l'emballage des épices consistent à les sécher, les broyer et les sceller pour préserver leur saveur, leur qualité et leur durée de conservation."
+      },
+      "exporting": {
+        "title": "Exportation",
+        "description": "Logistique et expédition soignées pour livrer des épices de qualité supérieure à nos partenaires mondiaux en toute transparence."
+      }
+    }
+  },
+  "certifications": {
+    "badge": "Confiance & Qualité",
+    "headline": "Nos Certifications",
+    "description": "Notre engagement envers une qualité et une sécurité inégalées est soutenu par les principales normes nationales et internationales de sécurité alimentaire."
+  },
+  "testimonials": {
+    "badge": "Avis Clients",
+    "headline": "Ce Qu'ils Disent de Nous",
+    "items": {
+      "jitu": {
+        "name": "Jitendar kalsariya",
+        "designation": "Chef des Ventes",
+        "text": "\"Il existe de nombreuses variations de passages du Lorem Ipsum disponibles, mais la majorité a subi des altérations sous une forme ou une autre, par de l'humour injecté...\""
+      },
+      "hardik": {
+        "name": "Hardik sagar",
+        "designation": "Gemmologue",
+        "text": "\"Il existe de nombreuses variations de passages du Lorem Ipsum disponibles, mais la majorité a subi des altérations sous une forme ou une autre, par de l'humour injecté...\""
+      },
+      "prashant": {
+        "name": "prashant patel",
+        "designation": "Directeur de la Chaîne",
+        "text": "\"Il existe de nombreuses variations de passages du Lorem Ipsum disponibles, mais la majorité a subi des altérations sous une forme ou une autre, par de l'humour injecté...\""
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "headline_span": "Exportation",
+    "headline_rest": "Discutons de vos Besoins",
+    "description": "Associez-vous à Raavi Exports pour des épices de qualité supérieure. Notre équipe est prête à vous aider pour vos commandes en gros, vos mélanges personnalisés et la logistique d'expédition internationale.",
+    "office": "Siège Social",
+    "call": "Appelez-nous",
+    "email": "Écrivez-nous",
+    "form_title": "Envoyer une Demande",
+    "name_label": "Nom Complet",
+    "name_placeholder": "John Doe",
+    "email_label": "Adresse E-mail",
+    "email_placeholder": "john@company.com",
+    "subject_label": "Sujet",
+    "subject_placeholder": "Demande de Commande en Gros",
+    "message_label": "Message",
+    "message_placeholder": "Veuillez décrire vos besoins...",
+    "submit": "Envoyer la Demande"
+  },
+  "footer": {
+    "brand_desc": "\"Élevez chaque création culinaire vers de nouveaux sommets de saveur et de perfection grâce aux épices exquises et méticuleusement élaborées de notre célèbre collection.\"",
+    "quick_links": "Liens Rapides",
+    "contact_info": "Informations de Contact",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "credits": "Conçu & Développé par"
+  }
+}

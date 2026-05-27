@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { EXPORT_COUNTRIES } from '../data/constants';
+import { useTranslation } from 'react-i18next';
 
 const ExportExperience = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="export" className="py-24 bg-brown-800 relative overflow-hidden">
       {/* Background World Map Pattern (Minimalist) */}
@@ -23,7 +26,7 @@ const ExportExperience = () => {
             viewport={{ once: true }}
             className="text-gold-500 font-medium tracking-[0.2em] uppercase text-sm mb-4"
           >
-            Global Reach
+            {t('export.badge')}
           </motion.h4>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +35,7 @@ const ExportExperience = () => {
             transition={{ delay: 0.2 }}
             className="text-4xl lg:text-5xl font-serif font-bold text-cream-100 mb-6"
           >
-            Exporting Excellence Worldwide
+            {t('export.headline')}
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -41,7 +44,7 @@ const ExportExperience = () => {
             transition={{ delay: 0.3 }}
             className="text-cream-100/70 font-light"
           >
-            Our premium spices transcend borders, delivering authentic Indian flavors to esteemed partners and culinary experts across the globe.
+            {t('export.description')}
           </motion.p>
         </div>
 
@@ -71,11 +74,11 @@ const ExportExperience = () => {
           className="mt-20 bg-gradient-to-r from-brown-900 to-brown-800 border border-gold-600/20 rounded-sm p-10 flex flex-col md:flex-row items-center justify-between shadow-2xl"
         >
           <div className="mb-6 md:mb-0">
-            <h3 className="text-2xl font-serif text-cream-100 mb-2">Ready to partner with us?</h3>
-            <p className="text-cream-100/60 font-light">Join our growing network of international distributors.</p>
+            <h3 className="text-2xl font-serif text-cream-100 mb-2">{t('export.partner_title')}</h3>
+            <p className="text-cream-100/60 font-light">{t('export.partner_desc')}</p>
           </div>
           <a href="#contact" className="premium-button whitespace-nowrap">
-            Become a Distributor
+            {t('export.partner_btn')}
           </a>
         </motion.div>
       </div>

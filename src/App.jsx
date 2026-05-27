@@ -8,6 +8,7 @@ const Hero = lazy(() => import('./components/Hero'));
 const About = lazy(() => import('./components/About'));
 const Products = lazy(() => import('./components/Products'));
 const ExportExperience = lazy(() => import('./components/ExportExperience'));
+const ServiceHighlights = lazy(() => import('./components/ServiceHighlights'));
 const Certifications = lazy(() => import('./components/Certifications'));
 const Process = lazy(() => import('./components/Process'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
@@ -23,6 +24,7 @@ function App() {
           <Hero />
           <About />
           <Products />
+          <ServiceHighlights />
           <ExportExperience />
           <Process />
           <Certifications />

@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "export": "Export",
+    "contact": "Kontakt",
+    "quote": "Angebot anfordern"
+  },
+  "hero": {
+    "tagline": "König der Qualität",
+    "headline_before": "Lieferung von Premium-",
+    "headline_span": "indischen Gewürzen",
+    "headline_after": "weltweit",
+    "description": "Erheben Sie jede kulinarische Kreation zu neuen Höhen von Geschmack und Perfektion mit den exquisiten und sorgfältig hergestellten Gewürzen aus unserer renommierten Kollektion.",
+    "explore": "Produkte erkunden",
+    "contact": "Kontaktieren Sie uns"
+  },
+  "about": {
+    "badge": "Über Raavi Exports",
+    "headline": "Ein Erbe aus",
+    "headline_italic": "Geschmack",
+    "headline_rest": "& globaler Exzellenz",
+    "p1": "Wir sind leidenschaftliche Kuratoren der besten Gewürze Indiens und bestrebt, authentische, reiche Aromen in Küchen auf der ganzen Welt zu bringen. Unsere Reise begann mit einer einfachen Mission: nicht nur Gewürze zu exportieren, sondern das Wesen des kulinarischen Erbes selbst.",
+    "p2": "Entdecken Sie unsere vertrauenswürdigen Rezepturen, die mit Sorgfalt für kulinarische Exzellenz hergestellt wurden und eine sanfte und sichere Verbesserung der Gerichte über ein reiches Spektrum von Gewürztypen bieten.",
+    "point1": "Gewürze bereichern kulinarische Erlebnisse mit aromatischem Reiz und drücken Zuneigung aus.",
+    "point2": "Die Kontrolle über Gewürzhandelsrouten war historisch ein Symbol für Autorität und Macht.",
+    "point3": "Gewürze bereichern kulturelle Traditionen durch globalen kulinarischen Austausch.",
+    "excellence_badge": "Jahre der\nExzellenz",
+    "ceo_name": "Bhavin Taja",
+    "ceo_title": "Vorsitzender, MD & CEO",
+    "highlights": {
+      "seasoning": {
+        "title": "Gewürzabteilung",
+        "description": "Wo kulinarische Kreativität auf herzhaften Genuss trifft."
+      },
+      "flavor": {
+        "title": "Aromen-Allee",
+        "description": "Es gibt viele verschiedene Varianten von Gewürz- und Aromapassagen."
+      },
+      "special": {
+        "title": "Spezielles Gewürzregal",
+        "description": "Ausgewählte Aromen für kulinarische Exzellenz."
+      }
+    },
+    "stats": {
+      "experience": "Jahre Erfahrung",
+      "countries": "Exportierte Länder",
+      "products": "Premium-Produkte",
+      "clients": "Zufriedene Kunden"
+    }
+  },
+  "services": {
+    "badge": "Unsere Spezialitäten",
+    "headline": "Mit Leidenschaft Hergestellt",
+    "description": "Entdecken Sie unsere kuratierten Gewürzkategorien, jede mit jahrzehntelanger Expertise und einem unerschütterlichen Engagement für authentischen Geschmack."
+  },
+  "products": {
+    "badge": "Unsere Kollektion",
+    "headline": "Premium Exportgewürze",
+    "description": "Entdecken Sie unser umfassendes Sortiment an sorgfältig verarbeiteten Gewürzen, die garantiert jede kulinarische Kreation mit authentischen Geschmacksprofilen bereichern.",
+    "inquire": "Jetzt anfragen",
+    "categories": {
+      "whole": "Ganze Gewürze",
+      "grounded": "Gemahlene Gewürze",
+      "blended": "Signatur-Gewürzmischungen",
+      "legumes": "Hochwertige Hülsenfrüchte",
+      "paste": "Reichhaltige kulinarische Pasten"
+    },
+    "titles": {
+      "whole": "Premium Ganze Gewürze",
+      "grounded": "Authentische gemahlene Gewürze",
+      "blended": "Signatur-Gewürzmischungen",
+      "legumes": "Hochwertige Hülsenfrüchte",
+      "paste": "Reichhaltige kulinarische Pasten"
+    },
+    "descriptions": {
+      "whole": "Sorgfältig handverlesene ganze Gewürze, die ihre natürlichen Öle und ihr intensives Aroma behalten.",
+      "grounded": "Fein gemahlene Gewürze, die unter strenger Temperaturkontrolle verarbeitet werden, um das Aroma zu bewahren.",
+      "blended": "Fachmännisch zusammengestellte Gewürzmischungen für perfekte kulinarische Harmonie.",
+      "legumes": "Nährstoffreiche Hülsenfrüchte in Premium-Qualität von den besten Farmen.",
+      "paste": "Konzentrierte Geschmacksbasen aus frischen, hochwertigen Zutaten."
+    }
+  },
+  "export": {
+    "badge": "Globale Reichweite",
+    "headline": "Exzellenz weltweit exportieren",
+    "description": "Unsere Premium-Gewürze überschreiten Grenzen und liefern authentische indische Aromen an geschätzte Partner und kulinarische Experten auf der ganzen Welt.",
+    "partner_title": "Bereit, mit uns zusammenzuarbeiten?",
+    "partner_desc": "Werden Sie Teil unseres wachsenden Netzwerks internationaler Vertriebspartner.",
+    "partner_btn": "Vertriebspartner werden"
+  },
+  "process": {
+    "badge": "Unser Prozess",
+    "headline": "Vom Hof zu den globalen Märkten",
+    "steps": {
+      "farming": {
+        "title": "Anbau",
+        "description": "Der Gewürzanbau erfordert eine sorgfältige Kultivierung und Verarbeitung in tropischen Regionen und sichert die weltweite Küche und den Lebensunterhalt von Millionen von Menschen."
+      },
+      "cleaning": {
+        "title": "Reinigung",
+        "description": "Die Reinigung der Ernte umfasst das Entfernen von Verunreinigungen, um die Qualität und Sicherheit der geernteten Produkte zu gewährleisten."
+      },
+      "processing": {
+        "title": "Verarbeitung & Verpackung",
+        "description": "Die Verarbeitung und Verpackung von Gewürzen umfasst das Trocknen, Mahlen und Versiegeln, um Geschmack, Qualität und Haltbarkeit zu erhalten."
+      },
+      "exporting": {
+        "title": "Exportieren",
+        "description": "Sorgfältige Logistik und Versand, um Premium-Gewürze nahtlos an unsere weltweiten Partner zu liefern."
+      }
+    }
+  },
+  "certifications": {
+    "badge": "Vertrauen & Qualität",
+    "headline": "Unsere Zertifizierungen",
+    "description": "Unser commitment für unübertroffene Qualität und Sicherheit wird durch führende globale und nationale Standards für Lebensmittelsicherheit gestützt."
+  },
+  "testimonials": {
+    "badge": "Kundenbewertungen",
+    "headline": "Was man über uns sagt",
+    "items": {
+      "jitu": {
+        "name": "Jitendar kalsariya",
+        "designation": "Vertriebsleiter",
+        "text": "\"Es gibt viele verschiedene Varianten von Lorem Ipsum-Passagen, aber die Mehrheit hat in irgendeiner Form Veränderungen erfahren, durch eingestreuten Humor...\""
+      },
+      "hardik": {
+        "name": "Hardik sagar",
+        "designation": "Gemmologe",
+        "text": "\"Es gibt viele verschiedene Varianten von Lorem Ipsum-Passagen, aber die Mehrheit hat in irgendeiner Form Veränderungen erfahren, durch eingestreuten Humor...\""
+      },
+      "prashant": {
+        "name": "prashant patel",
+        "designation": "Chain Manager",
+        "text": "\"Es gibt viele verschiedene Varianten von Lorem Ipsum-Passagen, aber die Mehrheit hat in irgendeiner Form Veränderungen erfahren, durch eingestreuten Humor...\""
+      }
+    }
+  },
+  "contact": {
+    "badge": "Kontakt aufnehmen",
+    "headline_span": "Exportieren",
+    "headline_rest": "Lassen Sie uns Ihre Bedürfnisse besprechen",
+    "description": "Arbeiten Sie mit Raavi Exports für Premium-Gewürze zusammen. Unser Team steht bereit, Ihnen bei Großbestellungen, individuellen Mischungen und der internationalen Versandlogistik zu helfen.",
+    "office": "Hauptsitz",
+    "call": "Rufen Sie uns an",
+    "email": "E-Mail schreiben",
+    "form_title": "Eine Anfrage senden",
+    "name_label": "Vollständiger Name",
+    "name_placeholder": "John Doe",
+    "email_label": "E-Mail-Adresse",
+    "email_placeholder": "john@company.com",
+    "subject_label": "Betreff",
+    "subject_placeholder": "Großbestellungs-Anfrage",
+    "message_label": "Nachricht",
+    "message_placeholder": "Bitte beschreiben Sie Ihre Anforderungen...",
+    "submit": "Anfrage absenden"
+  },
+  "footer": {
+    "brand_desc": "\"Erheben Sie jede kulinarische Kreation zu neuen Höhen von Geschmack und Perfektion mit den exquisiten und sorgfältig hergestellten Gewürzen aus unserer renommierten Kollektion.\"",
+    "quick_links": "Schnelllinks",
+    "contact_info": "Kontaktinfo",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "credits": "Entworfen & Entwickelt von"
+  }
+}

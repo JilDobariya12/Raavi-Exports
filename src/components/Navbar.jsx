@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { NAV_LINKS, COMPANY_INFO } from '../data/constants';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import LanguageSwitcher from './LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -26,13 +29,13 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-gold-500 to-gold-700 flex items-center justify-center text-brown-900 font-bold text-xl shadow-lg group-hover:shadow-gold-500/50 transition-shadow">
-            R
-          </div>
-          <div>
-            <h1 className="text-xl font-serif font-bold text-cream-100 tracking-wider uppercase">{COMPANY_INFO.name}</h1>
-            <p className="text-[10px] text-gold-400 tracking-widest uppercase">{COMPANY_INFO.tagline}</p>
+        <a href="/" className="flex items-center gap-3 group shrink-0">
+          <div className="relative h-12 w-auto md:h-16 flex items-center bg-cream-50/10 px-3 py-1 rounded-lg backdrop-blur-sm border border-cream-100/10 shadow-[0_0_15px_rgba(255,255,255,0.05)] transition-all duration-300 group-hover:bg-cream-50/20 group-hover:shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+            <img 
+              src={COMPANY_INFO.logo} 
+              alt={COMPANY_INFO.name} 
+              className="h-full w-auto object-contain drop-shadow-md filter brightness-110 contrast-125"
+            />
           </div>
         </a>
 
@@ -44,24 +47,28 @@ const Navbar = () => {
               href={link.url}
               className="text-sm font-medium text-cream-100/80 hover:text-gold-400 transition-colors uppercase tracking-wider relative group"
             >
-              {link.title}
+              {t(`nav.${link.id}`)}
               <span className="absolute -bottom-2 left-0 w-0 h-[2px] bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </nav>
 
-        {/* CTA Button */}
-        <div className="hidden lg:block">
-          <a href="#contact" className="premium-button">Get a Quote</a>
+        {/* Actions */}
+        <div className="hidden lg:flex items-center gap-6">
+          <LanguageSwitcher />
+          <a href="#contact" className="premium-button">{t('nav.quote')}</a>
         </div>
 
-        {/* Mobile Menu Toggle */}
-        <button
-          className="lg:hidden text-2xl text-cream-100 focus:outline-none"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-        >
-          {mobileMenuOpen ? <FaTimes /> : <FaBars />}
-        </button>
+        {/* Mobile Menu Toggle & Mobile Language */}
+        <div className="lg:hidden flex items-center gap-4">
+          <LanguageSwitcher />
+          <button
+            className="text-2xl text-cream-100 focus:outline-none"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Nav */}
@@ -81,11 +88,11 @@ const Navbar = () => {
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-lg font-medium text-cream-100 hover:text-gold-400 transition-colors uppercase tracking-widest"
                 >
-                  {link.title}
+                  {t(`nav.${link.id}`)}
                 </a>
               ))}
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="premium-button text-center mt-4">
-                Get a Quote
+                {t('nav.quote')}
               </a>
             </div>
           </motion.div>

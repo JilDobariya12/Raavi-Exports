@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { PRODUCTS } from '../data/constants';
+import { useTranslation } from 'react-i18next';
 
 const Products = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="products" className="py-24 bg-brown-900 relative">
       <div className="container mx-auto px-6 lg:px-12">
@@ -15,7 +18,7 @@ const Products = () => {
             viewport={{ once: true }}
             className="text-gold-500 font-medium tracking-[0.2em] uppercase text-sm mb-4"
           >
-            Our Collection
+            {t('products.badge')}
           </motion.h4>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -24,7 +27,7 @@ const Products = () => {
             transition={{ delay: 0.2 }}
             className="text-4xl lg:text-5xl font-serif font-bold text-cream-100 mb-6"
           >
-            Premium Export Spices
+            {t('products.headline')}
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -33,7 +36,7 @@ const Products = () => {
             transition={{ delay: 0.3 }}
             className="text-cream-100/70 font-light"
           >
-            Discover our comprehensive range of meticulously processed spices, guaranteed to elevate any culinary creation with authentic flavor profiles.
+            {t('products.description')}
           </motion.p>
         </div>
 
@@ -50,7 +53,7 @@ const Products = () => {
             >
               {/* Product Image - Centered and floating */}
               <div className="absolute inset-0 flex items-center justify-center p-12 opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out z-0">
-                <img src={product.image} alt={product.title} className="max-h-full object-contain filter drop-shadow-2xl" />
+                <img src={product.image} alt={t(`products.titles.${product.id}`)} className="max-h-full object-contain filter drop-shadow-2xl" />
               </div>
               
               {/* Gradient overlay for text readability */}
@@ -58,14 +61,14 @@ const Products = () => {
 
               {/* Content */}
               <div className="relative z-20 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                <span className="text-xs text-gold-400 uppercase tracking-widest mb-2 block">{product.category}</span>
-                <h3 className="text-2xl font-serif font-bold text-cream-100 mb-3">{product.title}</h3>
+                <span className="text-xs text-gold-400 uppercase tracking-widest mb-2 block">{t(`products.categories.${product.id}`)}</span>
+                <h3 className="text-2xl font-serif font-bold text-cream-100 mb-3">{t(`products.titles.${product.id}`)}</h3>
                 <p className="text-cream-100/70 text-sm font-light leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
-                  {product.description}
+                  {t(`products.descriptions.${product.id}`)}
                 </p>
                 <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
                   <a href="#contact" className="text-gold-500 hover:text-gold-400 text-sm tracking-wider uppercase font-medium flex items-center gap-2">
-                    Inquire Now
+                    {t('products.inquire')}
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                   </a>
                 </div>
